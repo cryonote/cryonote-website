@@ -1,0 +1,324 @@
+/* General Styling */
+body {
+  background-color: #262626;
+  color: #ffffff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar-dark {
+  background-color: #262626;
+}
+
+.nav > li, .nav > li:hover {
+  background: none;
+}
+
+.nav > li > a,
+.nav > li > a:active,
+.nav > li > a:link
+{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav > li > a:hover,
+.nav > li > .active {
+  background: none;
+  color: #0099ff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #999999;
+}
+
+/* Padded section */
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* Bootstrap Columns */
+[class*="col-"] {
+  margin-bottom: 15px;
+}
+
+.col-bottom-space {
+  font-size: 16px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+/* Basic Section Coloring */
+div.section:nth-of-type(odd) {
+  background: #2980b9 url('../img/bg_animated_Blue.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite scrolling-animation;
+	-moz-animation: 10s linear 0s normal none infinite scrolling-animation;
+	-ms-animation: 10s linear 0s normal none infinite scrolling-animation;
+	-o-animation: 10s linear 0s normal none infinite scrolling-animation;
+	animation: 10s linear 0s normal none infinite scrolling-animation;
+}
+
+div.section:nth-of-type(even) {
+  background: #262626;
+}
+
+/* Vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  text-overflow: ellipsis;
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Home Section */
+#home {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#home-video {
+  z-index: -1;
+  width: 100%;
+}
+
+#home-info {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 20%;
+}
+
+/* Features Section */
+#features .icon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  height: 140px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+@media (max-width: 300px) {
+
+  #features .icon {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Community Section */
+#community {
+
+}
+
+.btn-space {
+  margin: 5px;
+}
+
+/** Discord Button **/
+.btn-discord {
+  color: #ffffff;
+  background-color: #5680E8;
+  border-color: #5680E8;
+}
+
+.btn-discord:hover,
+.btn-discord:focus,
+.btn-discord:active,
+.btn-discord.active,
+.open .dropdown-toggle.btn-discord {
+  color: #ffffff;
+  background-color: #4B70CC;
+  border-color: #5680E8;
+}
+
+.btn-discord:active,
+.btn-discord.active,
+.open .dropdown-toggle.btn-discord {
+  background-image: none;
+}
+
+.btn-discord.disabled,
+.btn-discord[disabled],
+fieldset[disabled] .btn-discord,
+.btn-discord.disabled:hover,
+.btn-discord[disabled]:hover,
+fieldset[disabled] .btn-discord:hover,
+.btn-discord.disabled:focus,
+.btn-discord[disabled]:focus,
+fieldset[disabled] .btn-discord:focus,
+.btn-discord.disabled:active,
+.btn-discord[disabled]:active,
+fieldset[disabled] .btn-discord:active,
+.btn-discord.disabled.active,
+.btn-discord[disabled].active,
+fieldset[disabled] .btn-discord.active {
+  background-color: #5680E8;
+  border-color: #5680E8;
+}
+
+.btn-discord .badge {
+  color: #5680E8;
+  background-color: #ffffff;
+}
+
+/** Reddit Button **/
+.btn-reddit {
+  color: #ffffff;
+  background-color: #F20E0E;
+  border-color: #F20E0E;
+}
+
+.btn-reddit:hover,
+.btn-reddit:focus,
+.btn-reddit:active,
+.btn-reddit.active,
+.open .dropdown-toggle.btn-reddit {
+  color: #ffffff;
+  background-color: #D10B0B;
+  border-color: #F20E0E;
+}
+
+.btn-reddit:active,
+.btn-reddit.active,
+.open .dropdown-toggle.btn-reddit {
+  background-image: none;
+}
+
+.btn-reddit.disabled,
+.btn-reddit[disabled],
+fieldset[disabled] .btn-reddit,
+.btn-reddit.disabled:hover,
+.btn-reddit[disabled]:hover,
+fieldset[disabled] .btn-reddit:hover,
+.btn-reddit.disabled:focus,
+.btn-reddit[disabled]:focus,
+fieldset[disabled] .btn-reddit:focus,
+.btn-reddit.disabled:active,
+.btn-reddit[disabled]:active,
+fieldset[disabled] .btn-reddit:active,
+.btn-reddit.disabled.active,
+.btn-reddit[disabled].active,
+fieldset[disabled] .btn-reddit.active {
+  background-color: #F20E0E;
+  border-color: #F20E0E;
+}
+
+.btn-reddit .badge {
+  color: #F20E0E;
+  background-color: #ffffff;
+}
+
+/** Twitter Button **/
+.btn-twitter {
+  color: #ffffff;
+  background-color: #3CE4FA;
+  border-color: #3CE4FA;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  color: #ffffff;
+  background-color: #30BED1;
+  border-color: #3CE4FA;
+}
+
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  background-image: none;
+}
+
+.btn-twitter.disabled,
+.btn-twitter[disabled],
+fieldset[disabled] .btn-twitter,
+.btn-twitter.disabled:hover,
+.btn-twitter[disabled]:hover,
+fieldset[disabled] .btn-twitter:hover,
+.btn-twitter.disabled:focus,
+.btn-twitter[disabled]:focus,
+fieldset[disabled] .btn-twitter:focus,
+.btn-twitter.disabled:active,
+.btn-twitter[disabled]:active,
+fieldset[disabled] .btn-twitter:active,
+.btn-twitter.disabled.active,
+.btn-twitter[disabled].active,
+fieldset[disabled] .btn-twitter.active {
+  background-color: #3CE4FA;
+  border-color: #3CE4FA;
+}
+
+.btn-twitter .badge {
+  color: #3CE4FA;
+  background-color: #ffffff;
+}
+
+/* F.A.Q Section */
+.faq-section {
+  font-size: 12px;
+  padding: 12px;
+}
+
+/* Footer */
+footer {
+  padding: 15px 0;
+  background-color: #262626;
+}
+
+/* Scrolling Animated Background Keyframes */
+@-webkit-keyframes scrolling-animation {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-moz-keyframes scrolling-animation {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-ms-keyframes scrolling-animation {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@-o-keyframes scrolling-animation {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+@keyframes scrolling-animation {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
