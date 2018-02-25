@@ -61,7 +61,7 @@ body {
 
 /* Basic Section Coloring */
 div.section:nth-of-type(odd) {
-  background: #2980b9 url('../img/bg_animated_Blue.png') repeat 0 0;
+  background: #2980b9 url('../img/bg_animated_blue.png') repeat 0 0;
 	-webkit-animation: 10s linear 0s normal none infinite scrolling-animation;
 	-moz-animation: 10s linear 0s normal none infinite scrolling-animation;
 	-ms-animation: 10s linear 0s normal none infinite scrolling-animation;
