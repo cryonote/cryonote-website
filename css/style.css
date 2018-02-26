@@ -94,6 +94,9 @@ div.section:nth-of-type(even) {
   height: 100%;
   width: 100%;
   position: relative;
+  padding-top: 10rem;
+  padding-bottom: calc(70rem - 56px);
+  background-image: url("../img/header.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
