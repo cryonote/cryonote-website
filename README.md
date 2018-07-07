@@ -1,7 +1,7 @@
-# Bitnote Website
+# CryoNote Website
 
-Copyright (c) 2018, The Bitnote Developers.
+Copyright (c) 2018, The CryoNote Developers.
 
 # License
 
-Bitnote website is licensed under the "MIT License" for more info, refer to the [LICENSE](LICENSE) file.
+CryoNote website is licensed under the "MIT License" for more info, refer to the [LICENSE](LICENSE) file.
